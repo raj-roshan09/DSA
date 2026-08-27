@@ -14,7 +14,6 @@ int main() {
 	    for(int i=0; i<=mn; i++){
 	        ans = min(ans, i*r + ((a-i+1)/2)*p + ((b-i+1)/2)*q);
 	    }
-	    
 	    cout << ans << endl;
 	    
 	}
