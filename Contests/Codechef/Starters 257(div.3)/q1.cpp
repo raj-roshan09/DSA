@@ -10,9 +10,8 @@ int main() {
 	    
 	    int ans = n;
 	    while(k <= n && n != 0){
-	        n = n - k + 1;
+	        n = n- k + 1;
 	        ans++;
-	        
 	    }
 	    cout << ans << endl;
 	}
