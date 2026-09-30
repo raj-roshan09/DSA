@@ -12,6 +12,7 @@ int main() {
 	    for(int i=0; i<m; i++){
 	        int x;
 	        cin >> x;
+            
 	        u[x] = true; 
 	    }
 	    
